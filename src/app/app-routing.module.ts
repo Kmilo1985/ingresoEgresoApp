@@ -17,7 +17,7 @@ const routes: Routes = [
         children: dashBoardRoutes
     },
 
-    { path: '**', redirectTo: 'dashboard' }
+    { path: '**', redirectTo: 'login' }
 
 
 ];
